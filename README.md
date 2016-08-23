@@ -2,7 +2,7 @@
 Code for Circuits and Bits (A-S 347) Class - School of Art and Visual Studies - University of Kentucky
 
 Check out the class content and resources at https://u-kentucky-art.github.io/circuits-and-bits/ 
-Syllabus ~~is~~ **will be** avaliable in pdf form in this repo. 
+All code examples ~~are~~ **will be** avaliable in this repo. 
 
 This repo is currently a work in progress... will be online by middle of August. 
 
@@ -10,9 +10,9 @@ This repo is currently a work in progress... will be online by middle of August.
 #### Chrome (or another browser of your choice) + super basic HTML + tiny smidgeon of CSS +
 #### Javascript P5 Library 
 https://github.com/processing/p5.js
-#### Particle Photon Board 
-https://www.particle.io/ 
+#### Arduino I/O Board 
+https://www.arduino.cc/
 #### Github - you are here ain'tcha ;)
 https://github.com
 #### Git client of your choice
-
+thought command line is probably the bestest
