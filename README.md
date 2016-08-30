@@ -18,7 +18,6 @@ https://nodejs.org
 #### Git client of your choice
 though command line is probably the bestest
 
-#-------------
 ## Additional resources
 https://www.youtube.com/user/shiffman/playlists?shelf_id=14&view=50&sort=dd
 
