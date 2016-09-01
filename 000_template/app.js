@@ -2,6 +2,6 @@
 function setup() {
   createCanvas(300, 300);
   //http://p5js.org/reference/#/p5/createCanvas
-  rect(50, 50, 80, 80);
+  rect(20, 50, 80, 80);
   //http://p5js.org/reference/#p5/rect
 }
