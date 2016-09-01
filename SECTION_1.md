@@ -1,7 +1,7 @@
 #Repetition/Pattern/Ornamentation
 
 ###Assignment1: Geometric Shape Ornament
-Using geometric shapes, lines and curves only, create a sample ornament. Refer to SmilyFace as an example but try to make something cooler (i.e. more visually engaging.) Size: at least 5 rows and 5 columns of repeating ornamental motif
+Using geometric shapes, lines and curves only, create a sample ornament. Refer to https://github.com/U-Kentucky-Art/circuits-and-bits/tree/master/004_functions but try to make something cooler (i.e. more visually engaging.) Size: at least 5 rows and 5 columns of repeating ornamental motif
 
 ###Assignment2: Image-based Ornament
 Same as above but using actual pixel (or raster) images. Try to break away from the straight grid by using rotation and clustering of images. Ornamental motif can be created/edited in Photoshop.
