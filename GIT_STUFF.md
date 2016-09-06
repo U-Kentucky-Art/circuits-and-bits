@@ -1,6 +1,6 @@
 # All sorts of Git and GitHub usefulness
 
-### Command Line Client
+### Command Line Client Setup via
 on Win --> use https://chocolatey.org
 <br/>
 on Mac --> use home http://brew.sh/ (need Xcode installed)
