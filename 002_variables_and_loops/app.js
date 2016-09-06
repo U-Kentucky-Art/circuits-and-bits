@@ -6,12 +6,13 @@ function setup() {
 
   var counter = 0; //SET counter to zero
   console.log("Initial value of the counter variable is " + counter);
+  //concatinating a value onto the string of characters
 
-  for(counter=0;counter<5;counter=counter+1){
+  for(counter=0;counter<3;counter=counter+1){
     strokeWeight(10);
     stroke(0,255,0,255);
     fill(127,10,200,255);
-    rect(counter*100, 50, 60, 60);
-    console.log(counter*100); //debug the variables 
+    rect(counter*50, 50, 60, 60);
+    console.log(counter*100); //debug the variables
   }
 }

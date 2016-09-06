@@ -1,4 +1,6 @@
 .DS_store
+
+class_notes/
 # Logs
 logs
 *.log

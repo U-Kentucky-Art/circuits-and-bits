@@ -1,4 +1,4 @@
-# circuits-and-bits
+# Circuits and Bits
 Code for Circuits and Bits (A-S 348) Class - School of Art and Visual Studies - University of Kentucky
 
 All code examples are avaliable from this repo.
