@@ -1,17 +1,8 @@
-//And now for some rotation
-//check out http://www.genekogan.com/code/p5js-transformations/
-//for great examples
 
+var mr_dragon; //this is global variable
 
-function FunnyFace() {
-  stroke(0,255,0,255);
-  fill(127,10,200,255);
-  rect(0, 0, 60, 60);
-
-  rect(10, 5, 10, 10);
-  rect(40, 5, 10, 10);
-
-  ellipse(30,35, 30, 30);
+function preload() {
+  mr_dragon = loadImage("./dragon.png");
 }
 
 function setup() {
@@ -22,7 +13,7 @@ function setup() {
     push();
     translate(50+counter*100,0);
     rotate(radians(45));
-      FunnyFace();
+      image(mr_dragon,0,0,100,100);
     translate();
     pop();
   }
