@@ -5,6 +5,6 @@ var app = express();
 
 app.use(express.static('public'));
 
-var server = app.listen(8081, function () {
+app.listen(8081, function () {
   console.log("Shazam!")
 })
