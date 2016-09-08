@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Example Function</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+    <script>
+    //There are a bunch of object creation patterns in JS
+    //Check out -->
+    //http://leoasis.github.io/posts/2013/01/24/javascript-object-creation-patterns/
+    //This is both a blessing and a curse
+    //Here are two very javascript-ish patterns
+    //that actully show off cool features of the language
+
+    //This is commonly refered to as Object Literal Pattern
+    //As soon as you start looking at objects in JS as collections
+    //of key-value pairs, everything begins make a lot more sense
+
+      var sampleObject = {
+        private_var: "something",
+
+        init: function(){
+          console.log("I am like a constructor");
+        },
+
+        update: function(){
+          console.log("just updated  "+this.private_var);
+        },
+
+        moveRight: function(){
+          console.log("right");
+        }
+      }
+
+      sampleObject.update();
+      //everything is super-clean but we can't add and/or subtract methods and attributes on the fly
+
+//-------------------------------------------
+// Watch this --> https://www.youtube.com/watch?v=YkoelSTUy7A
+// Here we go with Prototype Pattern
+// This effectively shows off everything under the hood
+// i.e. JS has no classes - new objects are constructed via protoypes
+
+    function anotherSampleObject(){};
+
+    anotherSampleObject.prototype.private_var = "something else";
+    anotherSampleObject.prototype.update = function(){
+      console.log("just updated  "+ this.private_var);
+    }
+
+    first_sample_object= new anotherSampleObject();
+    // second_sample_object= new anotherSampleObject();
+
+    first_sample_object.update();
+    // second_sample_object.update();
+
+    anotherSampleObject.prototype.update = function(){
+      console.log("just updated  "+this.private_var+" again");
+    }
+
+    first_sample_object.update();
+    // second_sample_object.update();
+
+
+
+    </script>
+  </body>
+</html>
