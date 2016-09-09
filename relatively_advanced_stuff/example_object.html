@@ -52,19 +52,39 @@
     }
 
     first_sample_object= new anotherSampleObject();
-    // second_sample_object= new anotherSampleObject();
+    second_sample_object= new anotherSampleObject();
 
     first_sample_object.update();
-    // second_sample_object.update();
+    second_sample_object.update();
 
     anotherSampleObject.prototype.update = function(){
       console.log("just updated  "+this.private_var+" again");
     }
 
     first_sample_object.update();
-    // second_sample_object.update();
+    second_sample_object.update();
+
+//-----------------------
+
+    function thirdSampleObject(){
+      this.first_var = 3;
+      this.update = function(){"Hi I am a function"};
+    }
+
+    var thirdClass = new thirdSampleObject();
+    var fourthClass = new thirdSampleObject();
+
+    thirdClass.first_var = 5;
+    fourthClass.first_var = 7;
 
 
+    console.log(thirdClass.first_var);
+    console.log(fourthClass.first_var);
+
+    thirdSampleObject.prototype.first_var = 10;
+
+    console.log(thirdClass.first_var);
+    console.log(fourthClass.first_var);
 
     </script>
   </body>
