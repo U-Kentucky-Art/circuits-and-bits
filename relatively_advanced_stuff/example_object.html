@@ -38,11 +38,11 @@
       sampleObject.update();
       //everything is super-clean but we can't add and/or subtract methods and attributes on the fly
 
-//-------------------------------------------
-// Watch this --> https://www.youtube.com/watch?v=YkoelSTUy7A
-// Here we go with Prototype Pattern
-// This effectively shows off everything under the hood
-// i.e. JS has no classes - new objects are constructed via protoypes
+    //-------------------------------------------
+    // Watch this --> https://www.youtube.com/watch?v=YkoelSTUy7A
+    // Here we go with Prototype Pattern
+    // This effectively shows off everything under the hood
+    // i.e. JS has no classes - new objects are constructed via protoypes
 
     function anotherSampleObject(){};
 
@@ -67,24 +67,34 @@
 //-----------------------
 
     function thirdSampleObject(){
-      this.first_var = 3;
+      //this.first_var = 3;
       this.update = function(){"Hi I am a function"};
     }
 
     var thirdClass = new thirdSampleObject();
     var fourthClass = new thirdSampleObject();
+    //
+    // thirdClass.first_var = 5;
+    // fourthClass.first_var = 7;
 
-    thirdClass.first_var = 5;
-    fourthClass.first_var = 7;
 
-
-    console.log(thirdClass.first_var);
-    console.log(fourthClass.first_var);
+    // console.log(thirdClass.first_var);  //returns 5
+    // console.log(fourthClass.first_var); //returns 7
 
     thirdSampleObject.prototype.first_var = 10;
 
-    console.log(thirdClass.first_var);
-    console.log(fourthClass.first_var);
+    // console.log(thirdClass.first_var);  //returns 5 "protectected" within it's own instance of the object
+    // console.log(fourthClass.first_var); //returns 7 "protectected" within it's own instance of the object
+
+    var fithClass = new thirdSampleObject();
+    console.log(fithClass.first_var);   //returns 3 ? Wouldn't this return 10 at this point?
+
+    thirdSampleObject.prototype.first_var = 3;
+
+    // console.log(thirdClass.first_var);  //returns 5 "protectected" within it's own instance of the object
+    // console.log(fourthClass.first_var); //returns 7 "protectected" within it's own instance of the object
+
+    console.log(fithClass.first_var);   //returns 3 ? Wouldn't this return 10 at this point?
 
     </script>
   </body>

@@ -1,0 +1,8 @@
+{
+  "name": "basic_server",
+  "description": "server to serve servable stuff",
+  "dependencies": {
+    "express": "~4.13.4"
+  },
+  "license": "free free free to the world"
+}
