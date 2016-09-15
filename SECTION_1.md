@@ -10,3 +10,5 @@ Drawing upon the work you saw during artist presentations, you will create an ar
 
 ---
 *References*: Yinka Shonibare, Mariam Shapiro, El Anatsui, Yayoi Kusama, Jason Salavon, Agnes Martin, C.E.B. Reas, Fred Tomaselli, Sigmar Polke, Philip Beesley, Tara Donovan, Kehinde Wiley, Julie Mehretu, Sol Lewitt, Diana Cooper, Greg Lynn, Ellen Gallagher, Ursula von Rydingsvard,...
+
+Please look @ [this presentation](https://docs.google.com/presentation/d/14Fpj_8rBWOyxHPm6FMCNyNLfeyAF7RaslBdPGRO_mmU/edit?usp=sharing) as a bare minimum set of requirements to cover
