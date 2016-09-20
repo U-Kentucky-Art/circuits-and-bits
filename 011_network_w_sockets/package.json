@@ -1,0 +1,9 @@
+{
+  "name": "socket_server",
+  "description": "server to serve servable stuff",
+  "dependencies": {
+    "express": "~4.13.4",
+    "socket.io": "^1.4.8"
+  },
+  "license": "free free free to the world"
+}
