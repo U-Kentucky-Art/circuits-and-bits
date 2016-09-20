@@ -5,7 +5,7 @@ var app = express();
 var server = app.listen(8081, function () {
   console.log("Shazam! listening on port 8081");
 })
-var io = require('socket.io')(server);
+var io = require('socket.io')(server);    //http://socket.io/docs/
 
 app.use(express.static('public'));
 
