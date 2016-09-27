@@ -18,6 +18,7 @@ app.get('/trigger_2', function(request,response){
 
 app.get('/', function(request,response){
   // response.json({"status":"success"});
+  //console.log(request);
   response.send(200, "waiting for your command, master");
   console.log("standby, awaiting command");
 })
