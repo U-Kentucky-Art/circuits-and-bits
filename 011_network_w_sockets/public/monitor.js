@@ -1,4 +1,4 @@
-var socket = io('http://127.0.0.1:8081');     //http://socket.io/docs/
+var socket = io('/my_namespace');     //change this in your own code!
 var message_state = 0;
 
 function setup(){
