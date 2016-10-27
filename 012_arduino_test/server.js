@@ -1,7 +1,7 @@
 //ping Arduion every three second and recieve status back
 var SerialPort = require('serialport');
 
-var port = new SerialPort('/dev/tty.usbmodem1411', {   //will need to input your own serial port address
+var port = new SerialPort('/dev/tty.usbmodem1451', {   //will need to input your own serial port address
   parser: SerialPort.parsers.readline('\n'),
   baudRate: 9600
 });
