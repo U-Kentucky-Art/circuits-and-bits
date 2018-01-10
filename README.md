@@ -2,6 +2,7 @@
 Code for Circuits and Bits (A-S 348) Class - School of Art and Visual Studies - University of Kentucky
 
 All code examples are avaliable from this repo.
+Hosted at [https://apricot-teacher.glitch.me/](https://apricot-teacher.glitch.me/)
 
 ## Our primary tool set is:
 #### Chrome (or another browser of your choice) + super basic HTML + tiny smidgeon of CSS
