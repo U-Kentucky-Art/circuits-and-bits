@@ -4,7 +4,8 @@ Code for Circuits and Bits (A-S 348) Class - School of Art and Visual Studies - 
 All code examples are avaliable from this repo.
 Hosted at [https://apricot-teacher.glitch.me/](https://apricot-teacher.glitch.me/)
 
-[Section I](https://github.com/U-Kentucky-Art/circuits-and-bits/blob/master/SECTION_1.md)
+[Section I: Repetition/Pattern/Ornamentation](https://github.com/U-Kentucky-Art/circuits-and-bits/blob/master/SECTION_1.md)
+<br>History Notes: https://www.youtube.com/watch?v=K6NgMNvK52A , 
 
 ## Our primary tool set is:
 #### Chrome (or another browser of your choice) + super basic HTML + tiny smidgeon of CSS
