@@ -12,10 +12,12 @@ https://github.com/processing/p5.js
 https://www.arduino.cc/
 #### Github - you are here ain'tcha ;)
 https://github.com
+#### Glitch
+https://nodejs.org
 #### Text editor of your choice or
 https://atom.io/
 #### Node.js
-https://nodejs.org
+https://glitch.com/
 #### Git client of your choice
 though command line is probably the bestest
 
