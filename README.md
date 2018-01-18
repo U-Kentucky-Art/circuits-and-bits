@@ -25,10 +25,12 @@ https://nodejs.org
 though command line is probably the bestest
 
 ## Additional resources
+
 https://www.youtube.com/user/shiffman/playlists?shelf_id=14&view=50&sort=dd
 
 http://creative-coding.decontextualize.com/
 
-https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET/
+https://medium.com/@dima_strakovsky/javascript-intro-examples-f74ab3bff37f
 
-https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA/
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET
+
