@@ -16,11 +16,11 @@ https://www.arduino.cc/
 #### Github - you are here ain'tcha ;)
 https://github.com
 #### Glitch
-https://nodejs.org
+https://glitch.com/
 #### Text editor of your choice or
 https://atom.io/
 #### Node.js
-https://glitch.com/
+https://nodejs.org
 #### Git client of your choice
 though command line is probably the bestest
 
