@@ -1,9 +1,6 @@
 # Circuits and Bits
 Code for Circuits and Bits (A-S 348) Class - School of Art and Visual Studies - University of Kentucky
 
-All code examples are avaliable from this repo.
-Hosted at [https://apricot-teacher.glitch.me/](https://apricot-teacher.glitch.me/)
-
 [Section I: Repetition/Pattern/Ornamentation](https://github.com/U-Kentucky-Art/circuits-and-bits/blob/master/SECTION_1.md)
 <br>
 <br>
@@ -32,6 +29,11 @@ https://atom.io/
 https://nodejs.org
 #### Git client of your choice
 though command line is probably the bestest
+
+
+## Code : 
+All code examples are avaliable from this repo.
+Hosted at [https://apricot-teacher.glitch.me/](https://apricot-teacher.glitch.me/)
 
 ## Additional resources
 
