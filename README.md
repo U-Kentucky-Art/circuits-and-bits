@@ -5,7 +5,16 @@ All code examples are avaliable from this repo.
 Hosted at [https://apricot-teacher.glitch.me/](https://apricot-teacher.glitch.me/)
 
 [Section I: Repetition/Pattern/Ornamentation](https://github.com/U-Kentucky-Art/circuits-and-bits/blob/master/SECTION_1.md)
-<br>History Notes: https://www.youtube.com/watch?v=K6NgMNvK52A , https://www.youtube.com/watch?v=BlUWg2nxCz0 , https://www.youtube.com/watch?v=BUCZJWo9MZo
+<br>
+<br>
+History Notes: 
+<br>
+https://www.youtube.com/watch?v=K6NgMNvK52A
+<br>
+https://www.youtube.com/watch?v=BlUWg2nxCz0 
+<br>
+https://www.youtube.com/watch?v=BUCZJWo9MZo
+<br>
 
 ## Our primary tool set is:
 #### Chrome (or another browser of your choice) + super basic HTML + tiny smidgeon of CSS
