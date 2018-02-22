@@ -1,1 +1,1 @@
-Example running at https://cut-oval.glitch.me
+Example running at https://glitch.com/edit/#!/cut-oval
